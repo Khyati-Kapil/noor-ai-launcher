@@ -1,0 +1,10 @@
+{
+    "redirects": [
+      {
+        "source": "/",
+        "destination": "https://noor-ai-owjj-lxex47o4y-khyati-kapils-projects.vercel.app",
+        "permanent": false
+      }
+    ]
+  }
+  
