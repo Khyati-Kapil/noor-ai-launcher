@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Noor AI – Live Demo</title>
+
+  <!-- Escape iframe / ATS preview -->
+  <script>
+    const target = "https://noor-ai-owjj-lxex47o4y-khyati-kapils-projects.vercel.app";
+
+    try {
+      if (window.top !== window.self) {
+        window.top.location.href = target;
+      } else {
+        window.location.href = target;
+      }
+    } catch (e) {
+      window.location.href = target;
+    }
+  </script>
+
+  <!-- Fallback if JS is blocked -->
+  <noscript>
+    <meta http-equiv="refresh" content="0; url=https://noor-ai-owjj-lxex47o4y-khyati-kapils-projects.vercel.app">
+  </noscript>
+</head>
+<body>
+  Redirecting to project…
+</body>
+</html>
